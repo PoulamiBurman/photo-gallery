@@ -1,0 +1,64 @@
+body {
+  margin: 8px;
+  background: #fff;
+  color: #000;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.gallery {
+  padding: 0 15px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 32px;
+  margin: 33px 0 30px;
+}
+
+.photo {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.photo img {
+  display: block;
+  width: 200px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.like {
+  border: 0;
+  background: none;
+  padding: 0 0 0 6px;
+  font-size: 24px;
+  line-height: 1;
+  color: #1a6fe8;
+  cursor: pointer;
+}
+.like:active {
+  transform: scale(0.85);
+}
+
+.count {
+  margin-left: 6px;
+}
+
+.status {
+  min-height: 40px;
+  font-size: 14px;
+}
+
+.ldr {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 16px;
+  color: #555;
+}
+.ldr svg {
+  font-size: 22px;
+  color: #1a6fe8;
+}
